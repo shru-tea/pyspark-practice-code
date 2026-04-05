@@ -1,0 +1,3 @@
+SELECT department, COUNT(*) AS emp_count
+FROM employees
+GROUP BY department;
